@@ -74,6 +74,8 @@ public class JogoDaVelha{
    return false;
   }
   
+  
+  
   public static boolean InsereNaMatriz(char matriz[][], int num1, int num2, int jogador){
     //checagem para n�o tentar inserir em posi��es inv�lidas
     if(num1 > 2 || num1 < 0 || num2 > 2 || num2 < 0)
