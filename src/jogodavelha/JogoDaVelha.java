@@ -8,7 +8,7 @@ public class JogoDaVelha{
     int num1, num2;
     char matriz [][] = {{' ',' ',' '}, {' ',' ',' '}, {' ',' ',' '}};
     
-    //mensagem inicial e impressão do tabuleiro vazio
+    //mensagem inicial e impressï¿½o do tabuleiro vazio
     System.out.println("Bem vindos ao Jogo da Velha!");
     ImprimeMatriz(matriz);
     
@@ -24,7 +24,7 @@ public class JogoDaVelha{
       num2 = entrada.nextInt();
       
       if (InsereNaMatriz(matriz, num1, num2, jogador) == false){
-        System.out.println("Essa posição é inválida. Escolha outra posição.");
+        System.out.println("Essa posiï¿½ï¿½o ï¿½ invï¿½lida. Escolha outra posiï¿½ï¿½o.");
         ImprimeMatriz(matriz);
       }
       else{
@@ -75,7 +75,7 @@ public class JogoDaVelha{
   }
   
   public static boolean InsereNaMatriz(char matriz[][], int num1, int num2, int jogador){
-    //checagem para não tentar inserir em posições inválidas
+    //checagem para nï¿½o tentar inserir em posiï¿½ï¿½es invï¿½lidas
     if(num1 > 2 || num1 < 0 || num2 > 2 || num2 < 0)
       return false;
     
